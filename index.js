@@ -42,18 +42,19 @@ function init() {
 			},
 			{
 				type: 'input',
-				name: 'install',
+				name: 'installation',
 				message: questions[2],
 			},
 			{
 				type: 'input',
-				name: 'instructions',
+				name: 'usage',
 				message: questions[3],
 			},
 			{
-				type: 'input',
+				type: 'list',
 				name: 'contribute',
 				message: questions[4],
+				choices: ['Yes', 'No'],
 			},
 			{
 				type: 'input',
