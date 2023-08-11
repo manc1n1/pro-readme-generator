@@ -15,7 +15,7 @@ function renderInstallation(installation) {
 }
 
 function renderUsage(usage) {
-	const usageRender = `## Installation
+	const usageRender = `## Usage
   ${usage}`;
 
 	if (usage === '') return '';
